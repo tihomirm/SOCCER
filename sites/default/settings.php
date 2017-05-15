@@ -775,3 +775,8 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_cClgaqnSofMRysELVagECBvWe8QWw62lt2HWftS8GbRenz98WvCfgcRn8PzZDNBNPkTPca0j0w/sync';
+
+
+ $settings['trusted_host_patterns'] = array(
+   '^localhost$',
+ );
