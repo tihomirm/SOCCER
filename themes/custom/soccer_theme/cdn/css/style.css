@@ -1,0 +1,29 @@
+/**
+ * Place your custom styles here.
+ */
+ body {
+   background-color: rgb(108, 164, 207);
+ }
+
+.view-responsive-grid {
+  padding-top: 30px;
+}
+
+.view-responsive-grid img {
+  width: 100%;
+}
+
+
+
+.view-responsive-grid p {
+  text-align: center;
+  position: relative;
+  bottom: 35px;
+  color: white;
+  padding: 0.5em 0.7em;
+  background: rgba(17, 17, 17, .5);
+}
+
+.view-responsive-grid a {
+  text-decoration: none;
+}
