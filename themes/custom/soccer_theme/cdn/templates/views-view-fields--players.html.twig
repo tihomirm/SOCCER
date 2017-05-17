@@ -1,0 +1,47 @@
+{#
+/**
+ * @file
+ * Default theme implementation for main view template.
+ *
+ * Available variables:
+ * - attributes: Remaining HTML attributes for the element.
+ * - css_name: A css-safe version of the view name.
+ * - css_class: The user-specified classes names, if any.
+ * - header: The optional header.
+ * - footer: The optional footer.
+ * - rows: The results of the view query, if any.
+ * - empty: The content to display if there are no rows.
+ * - pager: The optional pager next/prev links to display.
+ * - exposed: Exposed widget form/info to display.
+ * - feed_icons: Optional feed icons to display.
+ * - more: An optional link to the next page of results.
+ * - title: Title of the view, only used when displaying in the admin preview.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the view title.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the view title.
+ * - attachment_before: An optional attachment view to be displayed before the
+ *   view content.
+ * - attachment_after: An optional attachment view to be displayed after the
+ *   view content.
+ * - dom_id: Unique id for every view being printed to give unique class for
+ *   JavaScript.
+ *
+ * @ingroup templates
+ *
+ * @see template_preprocess_views_view()
+ */
+#}
+
+  <div class="row newsFront">
+    <div class="col-sm-2">
+      {{ fields.field_image.content }}
+    </div>
+
+    <div class="col-sm-10 newsRight">
+      <h1 class="headerTitle">{{ fields.field_name.content}} {{fields.field_last_name.content}}</h1>
+       <h5><strong>{{fields.field_number.content}}</strong> {{ fields.field_position.content }}</h5>
+       <h5><strong>Age: </strong>{{fields.field_age.content}}</h5>
+
+    </div>
+  </div>

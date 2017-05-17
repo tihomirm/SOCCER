@@ -1,11 +1,37 @@
 /**
  * Place your custom styles here.
  */
- body {
-   background-color: rgb(108, 164, 207);
+
+ html body {
+   background-color: #eee;
  }
 
-.view-responsive-grid {
+ .newsRight {
+   padding-right: 0px !important;
+   /*padding-left: 0px !important;*/
+ }
+
+
+
+.newsFront {
+  margin: 8px 0;
+  background-color: white;
+}
+
+ .headerTitle{
+   margin-top: 0 !important;
+ }
+
+.newsFront{
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(154, 168, 162);
+}
+
+.photos {
+  background-color: white;
+}
+
+.photos {
   padding-top: 30px;
 }
 
@@ -13,7 +39,9 @@
   width: 100%;
 }
 
-
+.view-responsive-grid img:hover {
+  opacity: 0.5;
+}
 
 .view-responsive-grid p {
   text-align: center;
