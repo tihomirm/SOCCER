@@ -1,0 +1,7 @@
+first_module.content:
+  path: '/first'
+  defaults:
+    _controller: 'Drupal\first_module\Controller\FirstModuleController::hello'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
